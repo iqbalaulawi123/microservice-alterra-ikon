@@ -1,0 +1,26 @@
+POST localhost:8081/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "username" : "iqbalaulawi12345",
+  "email" : "iqbal@gmail.com",
+  "password" : "Fajrsdasif@123",
+  "name" : "iqbalaulawi",
+  "role" : "admin"
+}
+
+###
+
+POST localhost:8081/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "username" : "iqbalaulawi12345",
+  "password" : "Fajrsdasif@123"
+}
+
+
+###
+
+GET localhost:8081/api/v1/auth/all-users
+Authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoiaXFiYWxhdWxhd2kxMjM0NSIsImV4cCI6MTY3NjUyNDk2OSwiaWF0IjoxNjc2NTIxMzY5LCJzY29wZSI6IiJ9.Ncwl_iVO9fawXhi_2VVzk2Uxo25tlD_YxS-Szev9SvDCr18JBnedImmKbgJwIoEKyJVRaeejWiUaSbNBl-YTKFG0lGTY_CoRALphq09GlFGpXnjzDqIVZitR0DJsDXXGOZjeq3stVbY4FAkOKVfj9hiTs2mhYJJ4WWcTFce2YFyW-hZ2AlJCUfL4V_XSX_SZ6OhHPuo5ZT8gc1Tu0n6GxkI9sVzRKcz9eHplA3AAG-Tvv06KARk1z3bZ-Ty3Almvw-3ZlfZoDx9YkzKSCTiLNL833u8hKnjeabDZ0SMuNxz2OszpBrNBq9syEQnvDYPIQ4zX9vk0r5B3zQWDRes0_w
