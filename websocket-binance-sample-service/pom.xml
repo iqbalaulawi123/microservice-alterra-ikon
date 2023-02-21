@@ -9,22 +9,21 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>book-service-redis</artifactId>
+    <artifactId>websocket-binance-sample-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>book-service-redis</name>
-    <description>book-service-redis</description>
+    <name>websocket-binance-sample-service</name>
+    <description>websocket-binance-sample-service</description>
     <properties>
         <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-            <version>2.7.2</version>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
 
         <dependency>

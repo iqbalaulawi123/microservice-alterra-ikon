@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/websocket-binance-service" />
+    <file type="web" url="file://$PROJECT_DIR$/websocket-sample-binance-service" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -7,6 +12,7 @@
         <option value="$PROJECT_DIR$/product-service/pom.xml" />
         <option value="$PROJECT_DIR$/simple-websocket-service/pom.xml" />
         <option value="$PROJECT_DIR$/book-service-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket-binance-sample-service/pom.xml" />
       </list>
     </option>
   </component>
