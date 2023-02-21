@@ -1,0 +1,25 @@
+GET localhost:8082/books
+###
+#GET localhost:8082/books/1
+###
+POST localhost:8082/books
+Content-Type: application/json
+
+{
+  "isbn" : "11919",
+  "judul" : "Art of Doing Nothing",
+  "penulis" : "John Doe",
+  "deskripsi" : "desc"
+}
+###
+PUT localhost:8082/books/1
+Content-Type: application/json
+
+{
+  "isbn" : "1191988",
+  "judul" : "Art of Doing Nothing 2",
+  "penulis" : "John Doe edit",
+  "deskripsi" : "desc edited"
+}
+###
+DELETE localhost:8082/books/1

@@ -1,8 +1,8 @@
-GET localhost:8082/api/v1/products
+GET localhost:8083/api/v1/products
 ###
-GET localhost:8082/api/v1/products/1
+GET localhost:8083/api/v1/products/1
 ###
-POST localhost:8082/api/v1/products
+POST localhost:8083/api/v1/products
 Content-Type: application/json
 
 {
@@ -12,7 +12,7 @@ Content-Type: application/json
   "price" : 20000
 }
 ###
-PUT localhost:8082/api/v1/products/1
+PUT localhost:8083/api/v1/products/1
 Content-Type: application/json
 
 {
@@ -22,4 +22,4 @@ Content-Type: application/json
   "price" : 30000
 }
 ###
-DELETE localhost:8082/api/v1/products/1
+DELETE localhost:8083/api/v1/products/1

@@ -5,6 +5,8 @@
       <list>
         <option value="$PROJECT_DIR$/authentication-service/pom.xml" />
         <option value="$PROJECT_DIR$/product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-websocket-service/pom.xml" />
+        <option value="$PROJECT_DIR$/book-service-redis/pom.xml" />
       </list>
     </option>
   </component>

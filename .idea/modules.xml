@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/authentication-service/authentication-service.iml" filepath="$PROJECT_DIR$/authentication-service/authentication-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-service-redis/book-service-redis.iml" filepath="$PROJECT_DIR$/book-service-redis/book-service-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-alterra-ikon.iml" filepath="$PROJECT_DIR$/microservice-alterra-ikon.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-websocket-service/simple-websocket-service.iml" filepath="$PROJECT_DIR$/simple-websocket-service/simple-websocket-service.iml" />
     </modules>
   </component>
 </project>
